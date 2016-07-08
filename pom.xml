@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.samuelbirocchi</groupId>
     <artifactId>personal-document-validator</artifactId>
     <version>1.0.1-SNAPSHOT</version>
+    <name>Global Personal Document Validator</name>
+    <description>Java lib that validates a personal document given it's type</description>
+    <url>https://github.com/samuelbirocchi/personal-document-validator</url>
+    <developers>
+        <developer>
+            <name>Samuel Birocchi</name>
+            <email>samuelbirocchi@gmail.com</email>
+            <url>samuelbirocchi.com</url>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
 
     <distributionManagement>
         <snapshotRepository>
@@ -62,13 +81,27 @@
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
     <scm>
         <url>https://github.com/samuelbirocchi/personal-document-validator</url>
         <developerConnection>scm:git:git@github.com:samuelbirocchi/personal-document-validator.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
