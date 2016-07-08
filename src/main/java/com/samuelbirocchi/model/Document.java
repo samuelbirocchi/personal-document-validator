@@ -1,4 +1,4 @@
-package com.moshe.model;
+package com.samuelbirocchi.model;
 
 /**
  * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)

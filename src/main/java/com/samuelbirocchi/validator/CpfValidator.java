@@ -1,4 +1,4 @@
-package com.moshe.validator;
+package com.samuelbirocchi.validator;
 
 /**
  * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)

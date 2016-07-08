@@ -1,6 +1,6 @@
-package com.moshe.validator;
+package com.samuelbirocchi.validator;
 
-import com.moshe.model.Document;
+import com.samuelbirocchi.model.Document;
 
 /**
  * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
