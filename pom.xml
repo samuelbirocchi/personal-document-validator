@@ -4,7 +4,7 @@
 
     <groupId>com.samuelbirocchi</groupId>
     <artifactId>personal-document-validator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <distributionManagement>
         <snapshotRepository>
@@ -68,7 +68,7 @@
     <scm>
         <url>https://github.com/samuelbirocchi/personal-document-validator</url>
         <developerConnection>scm:git:git@github.com:samuelbirocchi/personal-document-validator.git</developerConnection>
-      <tag>personal-document-validator-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
