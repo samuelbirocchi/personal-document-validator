@@ -14,7 +14,7 @@ public abstract class Validator {
     public static Validator getInstance(Document document) {
         Validator validator = null;
         switch (document) {
-            case CPF_CNPJ:
+            case CPF:
                 validator = cpfValidator;
                 break;
             case NIT:

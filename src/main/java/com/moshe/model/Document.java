@@ -5,7 +5,7 @@ package com.moshe.model;
  */
 public enum Document {
 
-    CPF_CNPJ(Country.BRAZIL),
+    CPF(Country.BRAZIL),
     NIT(Country.COLOMBIA),
     DNI(Country.ARGENTINA);
 
