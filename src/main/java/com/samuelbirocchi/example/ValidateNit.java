@@ -1,7 +1,6 @@
 package com.samuelbirocchi.example;
 
 import com.samuelbirocchi.model.Document;
-import com.samuelbirocchi.validator.Validator;
 
 /**
  * @author Samuel Birocchi (samuelbirocchi@gmail.com)
@@ -9,7 +8,6 @@ import com.samuelbirocchi.validator.Validator;
 public class ValidateNit {
 
     public static void main(String[] args) {
-        Validator validator = Validator.getInstance(Document.NIT);
-        System.out.println(validator.validate("15.759.88152/7"));
+        System.out.println(Document.NIT.validate("15.759.88152/7"));
     }
 }

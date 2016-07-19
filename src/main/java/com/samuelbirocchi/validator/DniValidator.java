@@ -5,10 +5,6 @@ package com.samuelbirocchi.validator;
  */
 public class DniValidator extends Validator {
 
-    protected DniValidator() {
-
-    }
-
     @Override
     public Boolean validate(String document) {
 

@@ -5,10 +5,6 @@ package com.samuelbirocchi.validator;
  */
 public class NitValidator extends Validator {
 
-    protected NitValidator() {
-
-    }
-
     @Override
     public Boolean validate(String document) {
         Boolean valid;

@@ -5,10 +5,6 @@ package com.samuelbirocchi.validator;
  */
 public class CpfValidator extends Validator {
 
-    protected CpfValidator(){
-
-    }
-
     @Override
     public Boolean validate(String document) {
         Boolean valid;
