@@ -4,7 +4,7 @@
 
     <groupId>com.samuelbirocchi</groupId>
     <artifactId>personal-document-validator</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>Global Personal Document Validator</name>
     <description>Java lib that validates a personal document given it's type</description>
     <url>https://github.com/samuelbirocchi/personal-document-validator</url>
@@ -100,7 +100,7 @@
     <scm>
         <url>https://github.com/samuelbirocchi/personal-document-validator</url>
         <developerConnection>scm:git:git@github.com:samuelbirocchi/personal-document-validator.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>personal-document-validator-1.0.2</tag>
     </scm>
 
 </project>
