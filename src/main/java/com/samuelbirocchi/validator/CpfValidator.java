@@ -1,7 +1,7 @@
 package com.samuelbirocchi.validator;
 
 /**
- * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
+ * @author Samuel Birocchi (samuelbirocchi@gmail.com)
  */
 public class CpfValidator extends Validator {
 
@@ -14,11 +14,13 @@ public class CpfValidator extends Validator {
         Boolean valid;
 
         String cleanDocument = document.replaceAll("\\D", "");
-        assert cleanDocument.matches("\\d{11}");
-        assert !cleanDocument.replaceAll(String.valueOf(cleanDocument.charAt(0)), "").isEmpty();
+        valid = cleanDocument.matches("\\d{11}");
+        valid &= !cleanDocument.replaceAll(String.valueOf(cleanDocument.charAt(0)), "").isEmpty();
 
-        valid = verifyFirstDigit(cleanDocument);
-        valid &= verifySecondDigit(cleanDocument);
+        if (valid) {
+            valid = verifyFirstDigit(cleanDocument);
+            valid &= verifySecondDigit(cleanDocument);
+        }
 
         return valid;
     }

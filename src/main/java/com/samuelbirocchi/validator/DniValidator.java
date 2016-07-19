@@ -1,7 +1,7 @@
 package com.samuelbirocchi.validator;
 
 /**
- * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
+ * @author Samuel Birocchi (samuelbirocchi@gmail.com)
  */
 public class DniValidator extends Validator {
 

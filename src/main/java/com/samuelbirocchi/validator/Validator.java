@@ -3,7 +3,7 @@ package com.samuelbirocchi.validator;
 import com.samuelbirocchi.model.Document;
 
 /**
- * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
+ * @author Samuel Birocchi (samuelbirocchi@gmail.com)
  */
 public abstract class Validator {
 

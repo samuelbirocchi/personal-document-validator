@@ -4,7 +4,7 @@ import com.samuelbirocchi.model.Document;
 import com.samuelbirocchi.validator.Validator;
 
 /**
- * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
+ * @author Samuel Birocchi (samuelbirocchi@gmail.com)
  */
 public class ValidateCpf {
 
