@@ -1,14 +1,12 @@
 package com.samuelbirocchi.validator;
 
-import com.sun.istack.internal.NotNull;
-
 /**
  * @author Samuel Birocchi (samuel.birocchi@ifood.com.br)
  */
 public class CnpjValidator extends Validator {
 
     @Override
-    public Boolean validate(@NotNull String document) {
+    public Boolean validate(String document) {
         Boolean valid;
 
         String cleanDocument = document.replaceAll("[^\\d]+", "");
